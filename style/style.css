@@ -1,0 +1,198 @@
+/* Reset style */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Reset style */
+
+body {
+    max-width: 1980px;
+    margin:0;
+    height:100%;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+
+.winterImg {
+    width: 100%;
+    height: auto;
+}
+
+#canvas{
+    width: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.sentensText {
+    width: 100%;
+    font-size: 5em;
+    text-align-last: center;
+    position: absolute;
+    color: #fff;
+    margin-top: 14%;
+}
+
+.sentens {
+    display: none;
+} 
+
+.santa {
+    text-transform: uppercase;
+    background: linear-gradient(to left, #c2c2c2 40%, #c50d00 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sentens:first-child {
+    display: block;
+}
+
+.seeMore {
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 50%;
+}
+.fas {
+    position: absolute;
+    color: #ffffff;
+    font-size: 4em;
+    z-index: 2;
+}
+
+/* Gifts */
+
+.gifts {
+    width: 100%;
+    height: 60vh;
+    background: #ffffff;
+    color: #1f1e1e;
+    margin-bottom: 20%;
+}
+
+.gifts h2 {
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    margin-top: -1%;
+    padding: 2%;
+} 
+
+
+.paralax {
+    background: url("../images/bgsnow.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.christmasBoxA, .christmasBoxB, .christmasBoxC {
+    float: left;
+    width: 33%;
+    padding: 2% 0;
+    margin: 6% 0;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.santaPeople {
+    width: 100%;
+    height: 60vh;
+    background: #ffffff;
+    color: #1f1e1e;
+}
+
+.santaPeople h2 {
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+/*zoom hover big image gift */
+
+  
+.christmasBoxA:hover, .christmasBoxB:hover, .christmasBoxC:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+}
+.reindeer {
+    width: 100%;
+    height: auto;
+}
+
+.reindeer img {
+    width: 99.9%;
+}
+
+.namesCh {
+    width: 100%;
+    position: absolute;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 4em;
+    margin-top: -23%;
+    
+}
+.namesCh p {
+    float: left;
+    margin: 0 6%;
+}
+
+.wykres {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 1154px) {
+    .namesCh {
+        font-size: 1.5em;
+    }
+    .christmasBoxA, {
+        float: none;
+    }
+    .christmasBoxB, .christmasBoxC {
+        display: none;
+    }
+  }
