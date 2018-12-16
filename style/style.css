@@ -129,11 +129,15 @@ body {
 
 .christmasBoxA, .christmasBoxB, .christmasBoxC {
     float: left;
-    width: 33%;
+    width: 31%;
     padding: 2% 0;
     margin: 6% 0;
     text-align: center;
     transition: transform .2s;
+}
+
+.christmasBoxA img, .christmasBoxB img, .christmasBoxC img {
+    width: 80%;
 }
 
 .santaPeople {
@@ -185,6 +189,7 @@ body {
     margin-top: 2%;
 }
 
+/* 
 @media screen and (max-width: 1154px) {
     .namesCh {
         font-size: 1.5em;
@@ -195,4 +200,5 @@ body {
     .christmasBoxB, .christmasBoxC {
         display: none;
     }
-  }
+  } 
+  */
