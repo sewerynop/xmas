@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="icon" type="image/png" href="images/santa-claus.png">
 <meta name="description" content="Christmas website">
 <meta name="keywords" content="HTML,CSS,JavaScript">
 <meta name="author" content="Seweryn Kotowski Primarej">
@@ -11,6 +12,27 @@
 <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet"> 
 <title>Merry Christmas</title>
 </head>
+<header class="main_h">
+  <div class="row">
+      <a class="logo" href="#"><img src="images/santa-claus.png" /></a>
+      <div class="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+
+      <nav>
+          <ul>
+              <li><a href="#container">CHRISTMAS</a></li>
+              <li><a href="#chooseGift">GIFTS</a></li>
+              <li><a href="#listChildren">LIST OF GOOD</a></li>
+              <li><a href="#well">CHART OF GOODNESS</a></li>
+          </ul>
+      </nav>
+
+  </div> <!-- / row -->
+
+</header>
 <body>
   <div id="container">
     <div class="slider">
@@ -21,11 +43,11 @@
             <h1 class="sentens">Merry Christmas</h1>
             <h1 class="sentens santa">HO HO HO</h1>
           </div>
-          <div class="seeMore"><a href="#more"><i class="fas fa-arrow-circle-down"></i></a></div>
+          <div class="seeMore"><a href="#chooseGift"><i class="fas fa-arrow-circle-down"></i></a></div>
       <canvas id="canvas"></canvas>
         <img class="winterImg" src="images/snow_man.jpg" />
     </div>
-    <div id="more" class="gifts">
+    <div id="chooseGift" class="gifts">
       <h2 class="paralax">Choose Christmas gift</h2>
       <div class="christmasBoxA">
         <a href="https://www.apple.com/iphone-xs" target="_blank"><img src="images/christmas-box.png" /></a>
@@ -37,18 +59,19 @@
         <a href="https://www.morele.net/telewizor-lg-43uk6470-5014166" target="_blank"><img src="images/christmas-box.png" /></a>
       </div>
     </div> 
-  <div class="santaPeople">
+  <div id="listChildren" class="santaPeople">
     <h2 class="paralax">List of Good Children</h2>
     <div class="reindeer">
       <img src="images/6856.jpg" />
       <div class="namesCh">
-        <p>Aniela</p>
-        <p>Jon</p>
-        <p>Angelina</p>
-        <p>Michael</p>
+        <p class="shake">Aniela</p>
+        <p class="shake">Jon</p>
+        <p class="shake">Angelina</p>
+        <p class="shake">Michael</p>
       </div>
     </div>
-    <div class="wykres">
+    <div id="well"class="wykres">
+      <h2 class="paralax place">Good Children</h2>
       <div id="chartContainer" style="height: 370px; width: 100%;"></div>
     </div>
   </div>
