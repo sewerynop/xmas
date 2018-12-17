@@ -59,7 +59,7 @@ body {
     padding-top: 17px;
     /* background-color: rgba(255, 255, 255, 0.80); */
     overflow: hidden;
-    background: none
+    background: none;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     opacity: 0;
