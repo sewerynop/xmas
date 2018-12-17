@@ -347,13 +347,14 @@ body {
     display: none;
 } 
 
+/*
 .santa {
     text-transform: uppercase;
     background: linear-gradient(to left, #c2c2c2 40%, #c50d00 80%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+*/
 .sentens:first-child {
     display: block;
 }
@@ -485,7 +486,7 @@ body {
     margin: 0 6%;
 }
 
-.wykres {
+.chart {
     margin-top: 2%;
 }
 #chartContainer {
